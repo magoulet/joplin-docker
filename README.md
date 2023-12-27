@@ -5,7 +5,12 @@ Copy `settings_example.json` to `settings.json` and edit, add or remove settings
 
 ## Installation
 From the main directory:
-`docker-compose build`
+`docker compose build`
 
 ## Usage
-`alias joplin='docker run --rm -it --name joplin -v joplinData:/root/.config/joplin --network host joplin joplin'`
+The recommended way to run this container is by defining an alias: 
+`alias joplin='docker run --rm -it --name joplin -e TZ=`cat /etc/timezone` -v joplinData:/root/.config/joplin --network host joplindocker-joplin joplin'`
+
+and then running the command `joplin`.
+
+Aliases can be defined in your `~/.bashrc` or `~/.zshrc` file.

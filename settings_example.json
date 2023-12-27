@@ -5,7 +5,7 @@
 	"markdown.plugin.softbreaks": false,
 	"markdown.plugin.typographer": false,
 	"dateFormat": "DD/MM/YYYY",
-	"editor": "nano -Sail$ -r 80",
+	"editor": "nano",
 	"folders.sortOrder.field": "title",
 	"layout.folderList.factor": 1,
 	"layout.note.factor": 2,
