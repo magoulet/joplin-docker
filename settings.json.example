@@ -1,7 +1,7 @@
 {
 	"$schema": "https://joplinapp.org/schema/settings.json",
 	"locale": "en_US",
-	"api.token": "<REMOVED>",
+	"api.token": "REMOVED",
 	"markdown.plugin.softbreaks": false,
 	"markdown.plugin.typographer": false,
 	"dateFormat": "DD/MM/YYYY",
@@ -16,9 +16,10 @@
 	"revisionService.ttlDays": 90,
 	"showCompletedTodos": true,
 	"sync.target": 8,
-	"sync.8.path": "<aws_bucket_name",
-	"sync.8.url": "https://s3.amazonaws.com/",
-	"sync.8.username": "<aws iam username>",
+	"sync.8.path": REMOVED,
+	"sync.8.url": https://s3.amazonaws.com/,
+	"sync.8.username": REMOVED,
+	"sync.8.password": REMOVED,
 	"sync.interval": 300,
 	"sync.maxConcurrentConnections": 5,
 	"sync.target": 8,
@@ -26,5 +27,5 @@
 	"timeFormat": "HH:mm",
 	"trackLocation": true,
 	"uncompletedTodosOnTop": true,
-	"sync.8.region": "<aws_region>"
+	"sync.8.region": REMOVED
 }
